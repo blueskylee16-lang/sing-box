@@ -67,10 +67,10 @@ cat << JSON > /etc/sing-box/config.json
       "users": [{ "uuid": "$UUID", "flow": "xtls-rprx-vision" }],
       "tls": {
         "enabled": true,
-        "server_name": "www.microsoft.com",
+        "server_name": "www.icould.com",
         "reality": {
           "enabled": true,
-          "handshake": { "server": "www.microsoft.com", "server_port": 443 },
+          "handshake": { "server": "www.icould.com", "server_port": 443 },
           "private_key": "$PRIVATE_KEY",
           "short_id": ["$SID"]
         }
